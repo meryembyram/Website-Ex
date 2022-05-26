@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Proje Ödevi</title>
+	<link rel="shortcut icon" href="resimler/icon4.png">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="w3-top">
+    <div class="w3-bar w3-red w3-card w3-left-align w3-large">
+      <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+      <a href="anasayfa.html" class="w3-bar-item w3-button w3-padding-large w3-hover-white">Ana Sayfa</a>
+      <div class="w3-dropdown-hover">
+        <button class="w3-button">HTML</button>
+        <div class="w3-dropdown-content w3-bar-block w3-card-4">
+          <a href="htmltag.html" class="w3-bar-item w3-button">Etiketler</a>
+          <a href="htmlorn.html" class="w3-bar-item w3-button">Örnekler</a>
+        </div>
+      </div>
+      <div class="w3-dropdown-hover">
+        <button class="w3-button">CSS</button>
+        <div class="w3-dropdown-content w3-bar-block w3-card-4">
+          <a href="csstag.html" class="w3-bar-item w3-button">Etiketler</a>
+          <a href="cssorn.html" class="w3-bar-item w3-button">Örnekler</a>
+        </div>
+      </div>
+      <div class="w3-dropdown-hover">
+        <button class="w3-button">JavaScript</button>
+        <div class="w3-dropdown-content w3-bar-block w3-card-4">
+          <a href="javastag.html" class="w3-bar-item w3-button">Etiketler</a>
+          <a href="javasorn.html" class="w3-bar-item w3-button">Örnekler</a>
+        </div>
+      </div>
+      <a href="iletisim.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">İletişim</a>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <div class="w3-container">
+  <h2>CSS Etiketleri</h2>
+
+  <table class="w3-table-all">
+    <thead>
+      <tr class="w3-red">
+        <th>Etiket Adı<></th>
+        <th>Açıklama</th>
+      </tr>
+    </thead>
+    <tr>
+      <td>a</td>
+      <td>Linkin, sayfa açıldığında tıklanmadan veya imleç üzerine getirilmeden önceki durumudur.</td>
+    </tr>
+    <tr>
+      <td>a:hover</td>
+      <td>Linkin imleç üzerine getirildiğindeki durumudur.</td>
+    </tr>
+    <tr>
+      <td>a:active</td>
+      <td>Linkin tıklandığı andaki durumudur.</td>
+    </tr>
+    <tr>
+      <td>a:visited</td>
+      <td>Linkin tıklandıktan sonraki durumudur.</td>
+    </tr>
+    <tr>
+      <td>color</td>
+      <td>Linkin rengini belirler.</td>
+    </tr>
+    <tr>
+      <td>background-color</td>
+      <td>Linkin zemin rengini belirler.</td>
+    </tr>
+    <tr>
+      <td>background-image</td>
+      <td>Linkin zeminine resim ekler (Bu animated-gif de olabilir).</td>
+    </tr>
+    <tr>
+      <td>text-decoration</td>
+      <td>Linkin altının, üstünün vs. çizgili olup olmayacağını belirler.</td>
+    </tr>
+    <tr>
+      <td>font-weight</td>
+      <td>Yazının kalınlık veya inceliğini belirler.</td>
+    </tr>
+    <tr>
+      <td>border</td>
+      <td>Linkin etrafına kenarlık ekler.</td>
+    </tr>
+    <tr>
+      <td>display</td>
+      <td>Linki içeren hücre, satır vb. istenilen alanın seçilmesini sağlar.</td>
+    </tr>
+    <tr>
+      <td>disk</td>
+      <td>Liste biçiminin disk (içi dolu daire) şeklinde olmasını sağlar.</td>
+    </tr>
+    <tr>
+      <td>circle</td>
+      <td>Liste biçiminin çember şeklinde olmasını sağlar.</td>
+    </tr>
+    <tr>
+      <td>square</td>
+      <td>Liste biçiminin kare olmasını sağlar.</td>
+    </tr>
+    <tr>
+      <td>decimal</td>
+      <td>Liste biçiminin rakamlardan oluşmasını sağlar.</td>
+    </tr>
+    <tr>
+      <td>lower-roman</td>
+      <td>Liste biçiminin i,ii,iii gibi küçük roma rakamlarından oluşmasını sağlar.</td>
+    </tr>
+    <tr>
+      <td>upper-roman</td>
+      <td>Liste biçiminin I,II,II gibi büyük roma rakamlarından oluşmasını sağlar.</td>
+    </tr>
+    <tr>
+      <td>lower-alpha</td>
+      <td>Liste biçiminin a,b,c şeklinde küçük harf olmasını sağlar.</td>
+    </tr>
+    <tr>
+      <td>upper-alpha</td>
+      <td>Liste biçiminin A,B,C şeklinde büyük harf olmasını sağlar.</td>
+    </tr>
+    <tr>
+      <td>none</td>
+      <td>Listenin simgesiz olmasını sağlar.</td>
+    </tr>
+    <tr>
+      <td>inside</td>
+      <td>Listenin ikinci satırının en soldan başlamasını sağlar.</td>
+    </tr>
+    <tr>
+      <td>outside</td>
+      <td>Listenin ikinci satırının ilk satır ile aynı yerden başlamasını sağlar.</td>
+    </tr>
+    <tr>
+      <td>list-style-image</td>
+      <td>Liste biçiminin resim olmasını sağlar.</td>
+    </tr>
+    <tr>
+      <td>position</td>
+      <td>Katmanın yerinin belirlenmesini sağlar.</td>
+    </tr>
+    <tr>
+      <td>absolute</td>
+      <td>Katmanın yerinin pencere esas alınarak belirlenmesini sağlar.</td>
+    </tr>
+    <tr>
+      <td>relative</td>
+      <td>Katmanın yerinin bir önceki katman esas alınarak belirlenmesini sağlar.</td>
+    </tr>
+    <tr>
+      <td>static</td>
+      <td>Katmanın yerinin sabit olarak (Varsayılan olan sol üst köşe) belirlenmesini sağlar.</td>
+    </tr>
+    <tr>
+      <td>top</td>
+      <td>Katmanın üstten ne kadar aşağıda olması gerektiğini belirler.</td>
+    </tr>
+    <tr>
+      <td>left</td>
+      <td>Katmanın soldan ne kadar içeride olması gerektiğini belirler.</td>
+    </tr>
+    <tr>
+      <td>width</td>
+      <td>Katmanın genişliğinin ne kadar olacağını belirler.</td>
+    </tr>
+    <tr>
+      <td>height</td>
+      <td>Katmanın yüksekliğinin ne kadar olacağını belirler.</td>
+    </tr>
+    <tr>
+      <td>overflow</td>
+      <td>Katmanın belirtilen yükseklik ve genişliğe sığmayan kısmına ne olacağını belirler.</td>
+    </tr>
+    <tr>
+      <td>auto</td>
+      <td>Otomatik olarak belirlenir.</td>
+    </tr>
+    <tr>
+      <td>scroll</td>
+      <td>Kaydırma çubuğu ekleyerek görünmesini sağlar.</td>
+    </tr>
+    <tr>
+      <td>visible</td>
+      <td>Katmanı belirtilen boyutların dışına taşırarak sığmayan yerlerin görünmesini sağlar.</td>
+    </tr>
+    <tr>
+      <td>hidden</td>
+      <td>Sığmayan yerleri gizler.</td>
+    </tr>
+    <tr>
+      <td>visibility</td>
+      <td>Katmanın görünebilirlik ayarını yapar.</td>
+    </tr>
+    <tr>
+      <td>visible</td>
+      <td>Katmanın görünür olmasını sağlar.</td>
+    </tr>
+    <tr>
+      <td>hidden</td>
+      <td>Katmanı gizler.</td>
+    </tr>
+    <tr>
+      <td>z-index</td>
+      <td>Katmanların alttan üste doğru hangi sıra ile gösterileceğini belirler. 1 değeri katmanın en altta olacağını belirtir.</td>
+    </tr>
+    <tr>
+      <td>font-family</td>
+      <td>Yazı türünü belirler (Arial, Verdana gibi).</td>
+    </tr>
+    <tr>
+      <td>font-style</td>
+      <td>Yazının normal veya sağa eğik olmasını sağlar.</td>
+    </tr>
+    <tr>
+      <td>font-variant</td>
+      <td>Yazının normal veya tümünün büyük harflerden oluşmuş olmasını sağlar.</td>
+    </tr>
+    <tr>
+      <td>font-weight</td>
+      <td>Yazının kalınlık-inceliğini belirler.</td>
+    </tr>
+    <tr>
+      <td>font-size</td>
+      <td>Yazının büyüklüğünü belirler.</td>
+    </tr>
+    <tr>
+      <td>word-spacing</td>
+      <td>Kelimeler arasında bırakılacak boşluğu belirler.</td>
+    </tr>
+    <tr>
+      <td>letter-spacing</td>
+      <td>Harfler arasında bırakılacak boşluğu belirler.</td>
+    </tr>
+    <tr>
+      <td>text-decoration</td>
+      <td>Kelimenin altının, üstünün vs. çizili olup olmayacağını belirler.</td>
+    </tr>
+    <tr>
+      <td>underline</td>
+      <td>Kelimenin altının (satır altından) çizili olmasını sağlar.</td>
+    </tr>
+    <tr>
+      <td>overline</td>
+      <td>Kelimenin üstünün (satır üstünden) çizili olmasını sağlar.</td>
+    </tr>
+    <tr>
+      <td>line-through</td>
+      <td>Kelimenin ortasından çizili olmasını sağlar.</td>
+    </tr>
+    <tr>
+      <td>blink</td>
+      <td>Kelimenin yanıp sönmesini sağlar (Netscape için).</td>
+    </tr>
+    <tr>
+      <td>vertical-align</td>
+      <td>Metnin yatay olarak nasıl hizalanacağını belirler.</td>
+    </tr>
+    <tr>
+      <td>text-transform</td>
+      <td>Kelimelerin büyük harf veya küçük harflerden oluşmasını sağlar.</td>
+    </tr>
+    <tr>
+      <td>capitalize</td>
+      <td>Kelimelerin ilk harflerinin büyük olmasını sağlar.</td>
+    </tr>
+    <tr>
+      <td>uppercase</td>
+      <td>Kelimelerin bütün harflerinin büyük olmasını sağlar.</td>
+    </tr>
+    <tr>
+      <td>lowercase</td>
+      <td>Kelimelerin bütün harflerinin küçük olmasını sağlar.</td>
+    </tr>
+    <tr>
+      <td>none</td>
+      <td>Kelimelerin orijinal metindeki gibi olmasını sağlar.</td>
+    </tr>
+    <tr>
+      <td>text-align</td>
+      <td>Metnin dikey olarak nasıl hizalanacağını belirler.</td>
+    </tr>
+    <tr>
+      <td>left</td>
+      <td>Metni sola yaslar.</td>
+    </tr>
+    <tr>
+      <td>right</td>
+      <td>Metni sağa yaslar.</td>
+    </tr>
+    <tr>
+      <td>center</td>
+      <td>Metni ortalar.</td>
+    </tr>
+    <tr>
+      <td>justify</td>
+      <td>Metni iki yana yaslar.</td>
+    </tr>
+    <tr>
+      <td>text-indent</td>
+      <td>Metnin ilk satırının soldan ne kadar içerden başlayacağını belirler.</td>
+    </tr>
+    <tr>
+      <td>line-height</td>
+      <td>Satırın yüksekliğini ayarlar (yüksek değer verildiğinde satırlar arasındaki boşluk artar).</td>
+    </tr>
+    <tr>
+      <td>first-line</td>
+      <td>Metnin ilk satırının biçimlendirilmesini sağlar.</td>
+    </tr>
+    <tr>
+      <td>first-letter</td>
+      <td>Metnin ilk harfinin biçimlendirilmesini sağlar.</td>
+    </tr>
+    <tr>
+      <td>crosshair</td>
+      <td>İmlecin artı işareti şeklinde olmasını sağlar.</td>
+    </tr>
+    <tr>
+      <td>auto</td>
+      <td>İmlecin metinde dikey çizgi, boş alanda normal ok şeklinde olmasını sağlar.</td>
+    </tr>
+    <tr>
+      <td>default</td>
+      <td>İmlecin hem metinde hem de boş alanda normal ok şeklinde olmasını sağlar.</td>
+    </tr>
+    <tr>
+      <td>hand</td>
+      <td>İmlecin linkte olduğu gibi el şeklinde olmasını sağlar.</td>
+    </tr>
+    <tr>
+      <td>move</td>
+      <td>İmlecin taşıma işareti şeklinde olmasını sağlar.</td>
+    </tr>
+    <tr>
+      <td>ne-resize</td>
+      <td>İmlecin sağa yatık normal ok olmasını sağlar.</td>
+    </tr>
+    <tr>
+      <td>nw-resize</td>
+      <td>İmlecin sola yatık normal ok olmasını sağlar.</td>
+    </tr>
+    <tr>
+      <td>se-resize</td>
+      <td>İmlecin yukardan aşağı doğru ve sağa yatık normal ok olmasını sağlar.</td>
+    </tr>
+    <tr>
+      <td>sw-resize</td>
+      <td>İmlecin yukardan aşağı doğru ve sola yatık normal ok olmasını sağlar.</td>
+    </tr>
+    <tr>
+      <td>n-resize</td>
+      <td>İmlecin aşağıdan yukarıya doğru ince ok şeklinde olmasını sağlar.</td>
+    </tr>
+    <tr>
+      <td>s-resize</td>
+      <td>İmlecin yukardan aşağı doğru ince ok şeklinde olmasını sağlar.</td>
+    </tr>
+    <tr>
+      <td>w-resize</td>
+      <td>İmlecin sola doğru ince ok şeklinde olmasını sağlar.</td>
+    </tr>
+    <tr>
+      <td>e-resize</td>
+      <td>İmlecin sağa doğru ince ok şeklinde olmasını sağlar.</td>
+    </tr>
+    <tr>
+      <td>text</td>
+      <td>İmlecin hem metinde hem de boş alanda metinde olduğu gibi görünmesini sağlar.</td>
+    </tr>
+    <tr>
+      <td>wait</td>
+      <td>İmlecin meşgul animasyonuna dönüşmesini sağlar.</td>
+    </tr>
+    <tr>
+      <td>help</td>
+      <td>İmlecin yardım-soru işaretine dönüşmesini sağlar.</td>
+    </tr>
+    <tr>
+      <td>background-color</td>
+      <td>Zeminin rengini belirler.</td>
+    </tr>
+    <tr>
+      <td>color</td>
+      <td>Renk adı.</td>
+    </tr>
+    <tr>
+      <td>transparent</td>
+      <td>Zeminin saydam olmasını sağlar.</td>
+    </tr>
+    <tr>
+      <td>background-image</td>
+      <td>Zemine resim yerleştirilmesini sağlar.</td>
+    </tr>
+    <tr>
+      <td>url</td>
+      <td>Zemine yerleştirilen resmin adresi.</td>
+    </tr>
+    <tr>
+      <td>background-repeat</td>
+      <td>Zemine yerleştirilen resmin nasıl yayılacağını belirler.</td>
+    </tr>
+    <tr>
+      <td>repeat</td>
+      <td>Resmin bütün zemine yayılmasını sağlar.</td>
+    </tr>
+    <tr>
+      <td>repeat-x</td>
+      <td>Resmin sol-üstten sağ-üste doğru yayılmasını sağlar.</td>
+    </tr>
+    <tr>
+      <td>repeat-y</td>
+      <td>Resmin sol-üstten sol-alta doğru yayılmasını sağlar.</td>
+    </tr>
+    <tr>
+      <td>no-repeat</td>
+      <td>Resmin yayılmadan orijinal boyutuyla görünmesini sağlar.</td>
+    </tr>
+    <tr>
+      <td>background-attachment</td>
+      <td>Zemindeki resmin, sayfa kaydırma çubuğuyla hareket ettirildiğindeki durumunu belirler.</td>
+    </tr>
+    <tr>
+      <td>scroll</td>
+      <td>Sayfa hareket ettirildiğinde zeminin de kaymasını sağlar.</td>
+    </tr>
+    <tr>
+      <td>fixed</td>
+      <td>Sayfa kaydırılsa da zeminin sabit kalmasını sağlar.</td>
+    </tr>
+    <tr>
+      <td>background-position</td>
+      <td>Zemindeki resmin istenilen şekilde yerleştirilmesini sağlar.</td>
+    </tr>
+    <tr>
+      <td>top</td>
+      <td>Resmi yukarı yerleştirir.</td>
+    </tr>
+    <tr>
+      <td>center</td>
+      <td>Resmi ortalar.</td>
+    </tr>
+    <tr>
+      <td>bottom</td>
+      <td>Resmi aşağı yerleştirir.</td>
+    </tr>
+    <tr>
+      <td>left</td>
+      <td>Resmi sola yerleştirir.</td>
+    </tr>
+    <tr>
+      <td>right</td>
+      <td>Resmi sağa yerleştirir.</td>
+    </tr>
+    <tr>
+      <td>…px</td>
+      <td>Resmin soldan istenilen ölçüde içerde olmasını sağlar.</td>
+    </tr>
+    <tr>
+      <td>margin</td>
+      <td>Tablo ile pencerenin kenarları arasında bırakılacak boşluğu belirler.</td>
+    </tr>
+    <tr>
+      <td>margin-top</td>
+      <td>Tablo ile pencerenin üst kenarı arasında bırakılacak boşluğu belirler.</td>
+    </tr>
+    <tr>
+      <td>margin-right</td>
+      <td>Tablo ile pencerenin sağ kenarı arasında bırakılacak boşluğu belirler.</td>
+    </tr>
+    <tr>
+      <td>margin-bottom</td>
+      <td>Tablo ile pencerenin alt kenarı arasında bırakılacak boşluğu belirler.</td>
+    </tr>
+    <tr>
+      <td>margin-left</td>
+      <td>Tablo ile pencerenin sol kenarı arasında bırakılacak boşluğu belirler.</td>
+    </tr>
+    <tr>
+      <td>padding</td>
+      <td>Tablo kenarları ile tablo içeriği (yazı vb.) arasında bırakılacak boşluğu belirler.</td>
+    </tr>
+    <tr>
+      <td>padding-top</td>
+      <td>Tablonun üst kenarı ile tablo içeriği arasında bırakılacak boşluğu belirler.</td>
+    </tr>
+    <tr>
+      <td>padding-right</td>
+      <td>Tablonun sağ kenarı ile tablo içeriği arasında bırakılacak boşluğu belirler.</td>
+    </tr>
+    <tr>
+      <td>padding-bottom</td>
+      <td>Tablonun alt kenarı ile tablo içeriği arasında bırakılacak boşluğu belirler.</td>
+    </tr>
+    <tr>
+      <td>padding-left</td>
+      <td>Tablonun sol kenarı ile tablo içeriği arasında bırakılacak boşluğu belirler.</td>
+    </tr>
+    <tr>
+      <td>border</td>
+      <td>Tablonun kenarlarının şekillendirilmesini sağlar.</td>
+    </tr>
+    <tr>
+      <td>border-top</td>
+      <td>Tablonun üst kenarının şekillendirilmesini sağlar.</td>
+    </tr>
+    <tr>
+      <td>border-left</td>
+      <td>Tablonun sol kenarının şekillendirilmesini sağlar.</td>
+    </tr>
+    <tr>
+      <td>border-bottom</td>
+      <td>Tablonun alt kenarının şekillendirilmesini sağlar.</td>
+    </tr>
+    <tr>
+      <td>border-right</td>
+      <td>Tablonun sağ kenarının şekillendirilmesini sağlar.</td>
+    </tr>
+    <tr>
+      <td>border-width</td>
+      <td>Tablonun kenarlarının kalınlığını belirler.</td>
+    </tr>
+    <tr>
+      <td>border-top-width</td>
+      <td>Tablonun üst kenarının kalınlığını belirler.</td>
+    </tr>
+    <tr>
+      <td>border-right-width</td>
+      <td>Tablonun sağ kenarının kalınlığını belirler.</td>
+    </tr>
+    <tr>
+      <td>border-bottom-width</td>
+      <td>Tablonun alt kenarının kalınlığını belirler.</td>
+    </tr>
+    <tr>
+      <td>border-left-width</td>
+      <td>Tablonun sol kenarının kalınlığını belirler.</td>
+    </tr>
+    <tr>
+      <td>border-style</td>
+      <td>Tablonun kenarlık türünü belirler.</td>
+    </tr>
+    <tr>
+      <td>border-top-style</td>
+      <td>Tablonun üst kenarlık türünü belirler.</td>
+    </tr>
+    <tr>
+      <td>border-right-style</td>
+      <td>Tablonun sağ kenarlık türünü belirler.</td>
+    </tr>
+    <tr>
+      <td>border-bottom-style</td>
+      <td>Tablonun alt kenarlık türünü belirler.</td>
+    </tr>
+    <tr>
+      <td>border-left-style</td>
+      <td>Tablonun sol kenarlık türünü belirler.</td>
+    </tr>
+    <tr>
+      <td>border-color</td>
+      <td>Tablonun kenarlarının rengini belirler.</td>
+    </tr>
+    <tr>
+      <td>border-top-color</td>
+      <td>Tablonun üst kenarının rengini belirler.</td>
+    </tr>
+    <tr>
+      <td>border-right-color</td>
+      <td>Tablonun sağ kenarının rengini belirler.</td>
+    </tr>
+    <tr>
+      <td>border-bottom-color</td>
+      <td>Tablonun alt kenarının rengini belirler.</td>
+    </tr>
+    <tr>
+      <td>border-left-color</td>
+      <td>Tablonun sol kenarının rengini belirler.</td>
+    </tr>
+    <tr>
+      <td>color</td>
+      <td>Tabloda geçen metnin rengini belirler.</td>
+    </tr>
+    <tr>
+      <td>width</td>
+      <td>Tablonon genişliğini belirler.</td>
+    </tr>
+    <tr>
+      <td>height</td>
+      <td>Tablonun yüksekliğini belirler.</td>
+    </tr>
+  </table>
+</body>
+</html>

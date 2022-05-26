@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Proje Ödevi</title>
+	<link rel="shortcut icon" href="resimler/icon4.png">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="w3-top">
+    <div class="w3-bar w3-red w3-card w3-left-align w3-large">
+      <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+      <a href="anasayfa.html" class="w3-bar-item w3-button w3-padding-large w3-hover-white">Ana Sayfa</a>
+      <div class="w3-dropdown-hover">
+        <button class="w3-button">HTML</button>
+        <div class="w3-dropdown-content w3-bar-block w3-card-4">
+          <a href="htmltag.html" class="w3-bar-item w3-button">Etiketler</a>
+          <a href="htmlorn.html" class="w3-bar-item w3-button">Örnekler</a>
+        </div>
+      </div>
+      <div class="w3-dropdown-hover">
+        <button class="w3-button">CSS</button>
+        <div class="w3-dropdown-content w3-bar-block w3-card-4">
+          <a href="csstag.html" class="w3-bar-item w3-button">Etiketler</a>
+          <a href="cssorn.html" class="w3-bar-item w3-button">Örnekler</a>
+        </div>
+      </div>
+      <div class="w3-dropdown-hover">
+        <button class="w3-button">JavaScript</button>
+        <div class="w3-dropdown-content w3-bar-block w3-card-4">
+          <a href="javastag.html" class="w3-bar-item w3-button">Etiketler</a>
+          <a href="javasorn.html" class="w3-bar-item w3-button">Örnekler</a>
+        </div>
+      </div>
+      <a href="iletisim.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">İletişim</a>
+    </div>
+</div>
+<br>
+<br>
+<br>
+<div class="w3-container">
+  <h2>HTML Etiketleri</h2>
+
+  <table class="w3-table-all">
+    <thead>
+      <tr class="w3-red">
+        <th>Etiket Adı<></th>
+        <th>Açıklama</th>
+      </tr>
+    </thead>
+    <tr>
+    <tr>
+      <td>!--</td>
+      <td>Yorum satırı olduğunu belirtir.</td>
+    </tr>
+    <tr>
+    	<td>!DOCTYPE</td>
+    	<td>Belge türünü tanımlar.</td>
+    </tr>
+    <tr>
+    	<td>a</td>
+    	<td>Köprü tanımlar.</td>
+    </tr>
+    <tr>
+    	<td>abbr</td>
+    	<td>Bir kısaltma tanımlar.</td>
+    </tr>
+    <tr>
+    	<td>acronym</td>
+    	<td>Baş harflerden oluşan kısaltma tanımlar, HTML5 desteksiz.</td>
+    </tr>
+    <tr>
+    	<td>address</td>
+    	<td>Bir belgenin yazarı/sahibi için iletişim bilgilerini tanımlar.</td>
+    </tr>
+    <tr>
+    	<td>applet</td>
+    	<td>Gömülü bir uygulamayı tanımlar.</td>
+    </tr>
+    <tr>
+    	<td>area</td>
+    	<td>Bir görüntü haritasının içindeki bir alanı tanımlar.</td>
+    </tr>
+    <tr>
+    	<td>article</td>
+    	<td>Bir makale tanımlar, HTML5 destekli.</td>
+    </tr>
+	<tr>
+    	<td>aside</td>
+    	<td>İçeriği sayfa içeriğinden ayırır, HTML5 destekli.</td>
+    </tr>
+    <tr>
+    	<td>audio</td>
+    	<td>Ses içeriğini tanımlar, HTML5 destekli.</td>
+    </tr>
+    <tr>
+    	<td>b</td>
+    	<td>Kalın metni tanımlar.</td>
+    </tr>
+	<tr>
+    	<td>base</td>
+    	<td>Bir belgedeki tüm ilgili URL'lerin temel URL'sini belirtir.</td>
+    </tr>
+    <tr>
+    	<td>basefont</td>
+    	<td>Bir belgedeki tüm metinler için varsayılan renk, boyut ve yazı tipini belirtir, HTML5 desteksiz.</td>
+    </tr>
+    <tr>
+    	<td>bdi</td>
+    	<td>Metnin başka bir metinden farklı bir yönde biçimlendirilmiş bir bölümünü ayırır, HTML5 destekli.</td>
+    </tr>
+    <tr>
+    	<td>bdo</td>
+    	<td>Geçerli metin yönünü geçersiz kılar.</td>
+    </tr>
+    <tr>
+    	<td>big</td>
+    	<td>Büyük metni tanımlar, HTML5 desteksiz.</td>
+    </tr>
+    <tr>
+    	<td>blockquote</td>
+    	<td>Başka bir kaynaktan alıntı yapılan bir bölümü tanımlar.</td>
+    </tr>
+    <tr>
+      <td>body</td>
+      <td>Dökümanın görüntülenecek kısmını belirtir.</td>
+    </tr>
+    <tr>
+    	<td>br</td>
+    	<td>Tek satır sonu tanımlar.</td>
+    </tr>
+    <tr>
+    	<td>button</td>
+    	<td>Tıklanabilir bir düğme tanımlar.</td>
+    </tr>
+    <tr>
+    	<td>canvas</td>
+    	<td>Komut dosyası (genellikle JavaScript) aracılığıyla anında grafik çizmek için kullanılır, HTML5 destekli.</td>
+    </tr>
+    <tr>
+    	<td>caption</td>
+    	<td>Bir tablo başlığı tanımlar.</td>
+    </tr>
+    <tr>
+    	<td>center</td>
+    	<td>Ortalanmış metni tanımlar, HTML5 desteksiz.</td>
+    </tr>
+    <tr>
+    	<td>cite</td>
+    	<td>Bir çalışmanın unvanını tanımlar.</td>
+    </tr>
+    <tr>
+    	<td>code</td>
+    	<td>Bir bilgisayar kodu parçası tanımlar.</td>
+    </tr>
+    <tr>
+    	<td>col</td>
+    	<td>Bir colgroup öğesi içindeki her sütun için sütun özelliklerini belirtir.</td>
+    </tr>
+    <tr>
+    	<td>colgroup</td>
+    	<td>Biçimlendirme için bir tablodaki bir veya daha fazla sütun grubunu belirtir.</td>
+    </tr>
+    <tr>
+    	<td>data</td>
+    	<td>Verilen içeriği makine tarafından okunabilen bir çeviri ile ilişkilendirir, HTML5 destekli.</td>
+    </tr>
+    <tr>
+    	<td>datalist</td>
+    	<td>Giriş kontrolleri için önceden tanımlanmış seçeneklerin bir listesini belirtir, HTML5 destekli.</td>
+    </tr>
+    <tr>
+    	<td>dd</td>
+    	<td>Açıklama listesindeki bir terimin bir açıklamasını/değerini tanımlar.</td>
+    </tr>
+    <tr>
+    	<td>del</td>
+    	<td>Bir dokümandan silinen metni tanımlar.</td>
+    </tr>
+    <tr>
+    	<td>details</td>
+    	<td>Kullanıcının görüntüleyebileceği veya gizleyebileceği ek ayrıntıları tanımlar, HTML5 destekli.</td>
+    </tr>
+    <tr>
+    	<td>dfn</td>
+    	<td>Bir terimin belirleyici örneğini temsil eder.</td>
+    </tr>
+    <tr>
+    	<td>dialog</td>
+    	<td>Bir iletişim kutusunu veya pencereyi tanımlar, HTML5 destekli.</td>
+    </tr>
+    <tr>
+    	<td>dir</td>
+    	<td>Bir dizin listesi tanımlar, HTML5 desteksiz.</td>
+    </tr>
+    <tr>
+    	<td>div</td>
+    	<td>Bir belgedeki bir bölümü tanımlar.</td>
+    </tr>
+    <tr>
+    	<td>dl</td>
+    	<td>Bir açıklama listesi tanımlar.</td>
+    </tr>
+    <tr>
+    	<td>dt</td>
+    	<td>Bir açıklama listesinde bir terim/isim tanımlar.</td>
+    </tr>
+    <tr>
+    	<td>em</td>
+    	<td>Vurgulanan metni tanımlar.</td>
+    </tr>
+    <tr>
+    	<td>embed</td>
+    	<td>Harici (HTML olmayan) bir uygulama için bir kapsayıcı tanımlar, HTML5 destekli.</td>
+    </tr>
+    <tr>
+    	<td>fieldset</td>
+    	<td>Bir formdaki gruplarla ilgili öğeler.</td>
+    </tr>
+    <tr>
+    	<td>figcaption</td>
+    	<td>Bir figure öğesi için bir altyazı tanımlar, HTML5 destekli.</td>
+    </tr>
+    <tr>
+    	<td>figure</td>
+    	<td>İhtiyacınız olan içeriği belirtir, HTML5 destekli.</td>
+    </tr>
+    <tr>
+    	<td>font</td>
+    	<td>Metin için yazı tipi, renk ve boyutu tanımlar, HTML5 desteksiz.</td>
+    </tr>
+    <tr>
+    	<td>footer</td>
+    	<td>Bir belge veya bölüm için altbilgi tanımlar, HTML5 destekli.</td>
+    </tr>
+    <tr>
+    	<td>form</td>
+    	<td>Kullanıcı girişi için bir HTML formu tanımlar.</td>
+    </tr>
+    <tr>
+    	<td>frame</td>
+    	<td>Çerçeve kümesindeki bir pencereyi (çerçeve) tanımlar, HTML5 desteksiz.</td>
+    </tr>
+    <tr>
+    	<td>framset</td>
+    	<td>Bir dizi çerçeveyi tanımlar, HTML5 desteksiz.</td>
+    </tr>
+    <tr>
+      <td>h1 to h6</td>
+      <td>HTML başlıklarını tanımlar.</td>
+    </tr>
+    <tr>
+    	<td>head</td>
+    	<td>Belge ile ilgili bilgileri tanımlar.</td>
+    </tr>
+    <tr>
+    	<td>header</td>
+    	<td>Bir belge veya bölüm için bir başlık tanımlar, HTML5 destekli.</td>
+    </tr>
+    <tr>
+    	<td>hr</td>
+    	<td>İçeriğindeki tematik değişikliği tanımlar.</td>
+    </tr>
+    <tr>
+      <td>html</td>
+      <td>Bir HTML dökümanını belirtir.</td>
+    </tr>
+    <tr>
+    	<td>i</td>
+    	<td>Metnin bir bölümünü alternatif bir ses veya ruh halinde tanımlar.</td>
+    </tr>
+    <tr>
+    	<td>iframe</td>
+    	<td>Satır içi bir çerçeve tanımlar.</td>
+    </tr>
+    <tr>
+    	<td>img</td>
+    	<td>Bir görüntü tanımlar.</td>
+    </tr>
+    <tr>
+    	<td>input</td>
+    	<td>Giriş kontrolünü tanımlar.</td>
+    </tr>
+    <tr>
+    	<td>ins</td>
+    	<td>Bir belgeye yerleştirilmiş bir metni tanımlar.</td>
+    </tr>
+    <tr>
+    	<td>kbd</td>
+    	<td>Klavye girişini tanımlar.</td>
+    </tr>
+    <tr>
+    	<td>label</td>
+    	<td>Bir input öğesi için bir etiket tanımlar.</td>
+    </tr>
+    <tr>
+    	<td>legend</td>
+    	<td>Bir fieldset öğesi için bir altyazı tanımlar.</td>
+    </tr>
+    <tr>
+    	<td>li</td>
+    	<td>Bir liste öğesini tanımlar.</td>
+    </tr>
+    <tr>
+    	<td>link</td>
+    	<td>Bir belge ile bir dış kaynak arasındaki ilişkiyi tanımlar (en çok stil sayfalarına bağlanmak için kullanılır).</td>
+    </tr>
+    <tr>
+    	<td>main</td>
+    	<td>Bir belgenin ana içeriğini belirtir, HTML5 destekli.</td>
+    </tr>
+    <tr>
+    	<td>map</td>
+    	<td>Bir istemci tarafı görüntü haritasını tanımlar.</td>
+    </tr>
+    <tr>
+    	<td>mark</td>
+    	<td>İşaretlenmiş/vurgulanmış metni tanımlar, HTML5 destekli.</td>
+    </tr>
+    <tr>
+    	<td>menu</td>
+    	<td>Komutların bir listesini/menüsünü tanımlar.</td>
+    </tr>
+    <tr>
+    	<td>menuitem</td>
+    	<td>Kullanıcının bir açılır menüden çağırabileceği bir komut/menü öğesini tanımlar, HTML5 destekli.</td>
+    </tr>
+    <tr>
+    	<td>meta</td>
+    	<td>Bir HTML dokümanı hakkındaki meta verileri tanımlar.</td>
+    </tr>
+    <tr>
+    	<td>meter</td>
+    	<td>Bilinen bir aralıkta bir skaler ölçümü tanımlar, HTML5 destekli.</td>
+    </tr>
+    <tr>
+    	<td>nav</td>
+    	<td>Gezinme bağlantılarını tanımlar, HTML5 destekli.</td>
+    </tr>
+    <tr>
+    	<td>noframes</td>
+    	<td>Çerçeveleri desteklemeyen kullanıcılar için alternatif bir içerik tanımlar, HTML5 desteksiz.</td>
+    </tr>
+    <tr>
+    	<td>noscript</td>
+    	<td>İstemci tarafı komut dosyalarını desteklemeyen kullanıcılar için alternatif bir içerik tanımlar.</td>
+    </tr>
+    <tr>
+    	<td>object</td>
+    	<td>Gömülü bir nesneyi tanımlar.</td>
+    </tr>
+    <tr>
+    	<td>ol</td>
+    	<td>Sıralı bir liste tanımlar.</td>
+    </tr>
+    <tr>
+    	<td>optgroup</td>
+    	<td>Açılır listede bir grup ilgili seçeneği tanımlar.</td>
+    </tr>
+    <tr>
+    	<td>option</td>
+    	<td>Açılır listeden bir seçenek tanımlar.</td>
+    </tr>
+    <tr>
+    	<td>output</td>
+    	<td>Bir hesaplama sonucunu tanımlar, HTML5 destekli.</td>
+    </tr>
+    <tr>
+      <td>p</td>
+      <td>Bir paragraf belirtir.</td>
+    </tr>
+    <tr>
+    	<td>param</td>
+    	<td>Bir nesne için bir parametre tanımlar.</td>
+    </tr>
+    <tr>
+    	<td>picture</td>
+    	<td>Birden çok görüntü kaynağı için bir kapsayıcı tanımlar, HTML5 destekli.</td>
+    </tr>
+    <tr>
+    	<td>pre</td>
+    	<td>Önceden biçimlendirilmiş metni tanımlar.</td>
+    </tr>
+    <tr>
+    	<td>progress</td>
+    	<td>Bir görevin ilerlemesini temsil eder, HTML5 destekli.</td>
+    </tr>
+    <tr>
+    	<td>q</td>
+    	<td>Kısa bir fiyat teklifi tanımlar.</td>
+    </tr>
+    <tr>
+    	<td>rp</td>
+    	<td>Ruby'de ek açıklamaları desteklemeyen tarayıcılarda neyin gösterileceğini tanımlar, HTML5 destekli.</td>
+    </tr>
+    <tr>
+    	<td>rt</td>
+    	<td>Karakterlerin bir açıklamasını/telaffuzunu tanımlar (Doğu Asya tipografisi için), HTML5 destekli.</td>
+    </tr>
+    <tr>
+    	<td>ruby</td>
+    	<td>Bir rubi notu tanımlar (Doğu Asya tipografisi için), HTML5 destekli.</td>
+    </tr>
+    <tr>
+    	<td>s</td>
+    	<td>Artık doğru olmayan metni tanımlar.</td>
+    </tr>
+    <tr>
+    	<td>samp</td>
+    	<td>Bir bilgisayar programından örnek çıktıyı tanımlar.</td>
+    </tr>
+    <tr>
+    	<td>script</td>
+    	<td>İstemci tarafı komut dosyasını tanımlar.</td>
+    </tr>
+    <tr>
+    	<td>section</td>
+    	<td>Bir belgedeki bir bölümü tanımlar, HMTL5 destekli.</td>
+    </tr>
+    <tr>
+    	<td>select</td>
+    	<td>Bir açılır liste tanımlar.</td>
+    </tr>
+    <tr>
+    	<td>small</td>
+    	<td>Daha küçük metin tanımlar.</td>
+    </tr>
+    <tr>
+    	<td>source</td>
+    	<td>Medya öğeleri için çoklu ortam kaynaklarını tanımlar, HTML5 destekli.</td>
+    </tr>
+    <tr>
+    	<td>span</td>
+    	<td>Bir belgedeki bir bölümü tanımlar.</td>
+    </tr>
+    <tr>
+    	<td>strike</td>
+    	<td>Üstü çizili metni tanımlar, HTML5 desteksiz.</td>
+    </tr>
+    <tr>
+    	<td>strong</td>
+    	<td>Önemli metni tanımlar.</td>
+    </tr>
+    <tr>
+    	<td>style</td>
+    	<td>Belge için stil bilgilerini tanımlar.</td>
+    </tr>
+    <tr>
+    	<td>sub</td>
+    	<td>Alt metinleri tanımlar.</td>
+    </tr>
+    <tr>
+    	<td>summary</td>
+    	<td>details öğesi için görünür bir başlığı tanımlar, HTML5 destekli.</td>
+    </tr>
+    <tr>
+    	<td>sup</td>
+    	<td>Üst metinleri tanımlar.</td>
+    </tr>
+    <tr>
+    	<td>svg</td>
+    	<td>SVG grafikleri için bir kapsayıcı tanımlar.</td>
+    </tr>
+    <tr>
+    	<td>table</td>
+    	<td>Bir tablo tanımlar.</td>
+    </tr>
+    <tr>
+    	<td>tbody</td>
+    	<td>Tablodaki vücut içeriğini gruplandırır.</td>
+    </tr>
+    <tr>
+    	<td>td</td>
+    	<td>Tablodaki bir hücreyi tanımlar.</td>
+    </tr>
+    <tr>
+    	<td>template</td>
+    	<td>Bir şablonu tanımlar, HTML5 destekli.</td>
+    </tr>
+    <tr>
+    	<td>textarea</td>
+    	<td>Çok satırlı giriş kontrolünü tanımlar.</td>
+    </tr>
+    <tr>
+    	<td>tfoot</td>
+    	<td>Altbilgi içeriğini bir tabloda gruplandırır.</td>
+    </tr>
+    <tr>
+    	<td>th</td>
+    	<td>Tablodaki bir başlık hücresini tanımlar.</td>
+    </tr>
+    <tr>
+    	<td>thead</td>
+    	<td>Bir başlıktaki başlık içeriğini gruplar.</td>
+    </tr>
+    <tr>
+    	<td>time</td>
+    	<td>Bir tarih/saat tanımlar, HTML5 destekli.</td>
+    </tr>
+    <tr>
+    	<td>title</td>
+    	<td>Belge için bir başlık tanımlar.</td>
+    </tr>
+    <tr>
+    	<td>tr</td>
+    	<td>Tablodaki bir satırı tanımlar.</td>
+    </tr>
+    <tr>
+    	<td>track</td>
+    	<td>Medya öğeleri için metin izlerini tanımlar, HTML5 destekli.</td>
+    </tr>
+    <tr>
+    	<td>tt</td>
+    	<td>Teletype metnini tanımlar, HTML5 desteksiz.</td>
+    </tr>
+    <tr>
+    	<td>u</td>
+    	<td>Normal metinden stilistik olarak farklı olması gereken metni tanımlar.</td>
+    </tr>
+    <tr>
+    	<td>ul</td>
+    	<td>Sırasız liste tanımlar.</td>
+    </tr>
+    <tr>
+    	<td>var</td>
+    	<td>Bir değişken tanımlar.</td>
+    </tr>
+    <tr>
+    	<td>video</td>
+    	<td>Bir video veya film tanımlar, HTML5 destekli.</td>
+    </tr>
+    <tr>
+    	<td>wbr</td>
+    	<td>Olası bir satır sonu tanımlar, HTML5 destekli.</td>
+    </tr>
+  </table>
+</div>
+</body>
+</html>
